@@ -13,4 +13,4 @@
 *.jpg filter=lfs diff=lfs merge=lfs -text
 
 # Anyting in `/RawContent` dir.
-/RawContent/**/* filter=lfs diff=lfs merge=lfs -text
+boost_and_shoot_man/RawContent/**/* filter=lfs diff=lfs merge=lfs -text

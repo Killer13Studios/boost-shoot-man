@@ -9,19 +9,19 @@
 !/Game.uproject
 
 # Do not ignore source, config and plugins dirs.
-!/Source/**
-!/Config/**
-!/Plugins/**
+!boost_and_shoot_man/Source/**
+!boost_and_shoot_man/Config/**
+!boost_and_shoot_man/Plugins/**
 
 # Only allow .uasset and .umap files from /Content dir.
 # They're tracked by git-lfs, don't forget to track other
 # files if adding them here.
-!/Content/**/*.uasset
-!/Content/**/*.umap
+!boost_and_shoot_man/Content/**/*.uasset
+!boost_and_shoot_man/Content/**/*.umap
 
 # Allow any files from /RawContent dir.
 # Any file in /RawContent dir will be managed by git lfs.
-!/RawContent/**/*
+!boost_and_shoot_man/RawContent/**/*
 
 # OS/platform generated files.
 
